@@ -37,6 +37,7 @@
 <!--
 th:field="*{itemName}" : css 클래스에다가 fieldError를 추가해준다.
 "itemName"이라는 field 에러가 존재하면 errorclass가 적용된다.
+에러가 존재하면 th:field에서는 value를 error값을 찾아서 설정한다.
 -->
             <input type="text" id="itemName" th:field="*{itemName}"
                    th:errorclass="field-error"
